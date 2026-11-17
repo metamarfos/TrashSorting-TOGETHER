@@ -1,0 +1,109 @@
+{
+	"_comment": "ТЕСТОВЫЕ отходы для Этапов 2-3. Картинки временные (placeholder). Настоящая база появится на Этапе 4.",
+	"items": [
+		{
+			"id": "test_banana_peel",
+			"name": "Банановая кожура",
+			"display_name": "Банановая кожура",
+			"image": "res://assets/images/placeholders/banana_peel.svg",
+			"hazard_class": null,
+			"correct_bin": "gray",
+			"accepted_bins": [
+				"gray"
+			],
+			"description": "",
+			"image_status": "placeholder"
+		},
+		{
+			"id": "test_plastic_bottle",
+			"name": "Пластиковая бутылка",
+			"display_name": "Пластиковая бутылка",
+			"image": "res://assets/images/placeholders/plastic_bottle.svg",
+			"hazard_class": null,
+			"correct_bin": "blue",
+			"accepted_bins": [
+				"blue"
+			],
+			"description": "",
+			"image_status": "placeholder"
+		},
+		{
+			"id": "test_battery",
+			"name": "Использованная батарейка",
+			"display_name": "Использованная батарейка",
+			"image": "res://assets/images/placeholders/battery.svg",
+			"hazard_class": null,
+			"correct_bin": "hazard",
+			"accepted_bins": [
+				"hazard"
+			],
+			"description": "",
+			"image_status": "placeholder"
+		},
+		{
+			"id": "test_jacket",
+			"name": "Старая куртка",
+			"display_name": "Старая куртка",
+			"image": "res://assets/images/placeholders/jacket.svg",
+			"hazard_class": null,
+			"correct_bin": "social",
+			"accepted_bins": [
+				"social"
+			],
+			"description": "",
+			"image_status": "placeholder"
+		},
+		{
+			"id": "test_sofa",
+			"name": "Старый диван",
+			"display_name": "Старый диван",
+			"image": "res://assets/images/placeholders/sofa.svg",
+			"hazard_class": null,
+			"correct_bin": "bunker",
+			"accepted_bins": [
+				"bunker"
+			],
+			"description": "",
+			"image_status": "placeholder"
+		},
+		{
+			"id": "test_newspaper",
+			"name": "Газета",
+			"display_name": "Газета",
+			"image": "res://assets/images/placeholders/newspaper.svg",
+			"hazard_class": null,
+			"correct_bin": "blue",
+			"accepted_bins": [
+				"blue"
+			],
+			"description": "",
+			"image_status": "placeholder"
+		},
+		{
+			"id": "test_fluorescent_lamp",
+			"name": "Люминесцентная лампа",
+			"display_name": "Люминесцентная лампа",
+			"image": "res://assets/images/placeholders/fluorescent_lamp.svg",
+			"hazard_class": null,
+			"correct_bin": "hazard",
+			"accepted_bins": [
+				"hazard"
+			],
+			"description": "",
+			"image_status": "placeholder"
+		},
+		{
+			"id": "test_glass_jar",
+			"name": "Стеклянная банка",
+			"display_name": "Стеклянная банка",
+			"image": "res://assets/images/placeholders/glass_jar.svg",
+			"hazard_class": null,
+			"correct_bin": "blue",
+			"accepted_bins": [
+				"blue"
+			],
+			"description": "",
+			"image_status": "placeholder"
+		}
+	]
+}

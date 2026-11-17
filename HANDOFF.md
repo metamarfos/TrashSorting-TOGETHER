@@ -1,11 +1,11 @@
 # HANDOFF
 
-**Остановились:** конец Этапа 1, точка сохранения №1 (`SortiruemVmeste_v01.zip`).
+**Остановились:** конец Этапа 2, точка сохранения №2 (`SortiruemVmeste_v02.zip`).
 
-**Сделано последним:** проект Godot, меню, роутер сцен, настройки уровня, заглушка игры, документация (`documentation/DECISIONS.md`).
+**Сделано последним:** `components/` (draggable_item, drop_zone, bin_view), `scripts/core/game_data.gd`, `scripts/games/sort_bin/game_session.gd` и `game_sort_bin.gd`, `data/containers.json`, `data/test_waste.json`, SVG-заглушки.
 
-**Как продолжить:** «ПРОДОЛЖАЙ» → Этап 2. Прочитать PROJECT_STATUS, TODO, ARCHITECTURE, DECISIONS. Если пользователь прислал ошибки Godot, сначала исправить их.
+**Как продолжить:** «ПРОДОЛЖАЙ» → Этап 3. Сначала исправить ошибки, если пользователь их прислал.
 
-**Следующий шаг (Этап 2):** `components/draggable_item.gd`, `components/drop_zone.gd`, `components/bin_view.gd`; заменить заглушку `scripts/games/sort_bin/game_sort_bin.gd` на игровой экран (кнопка «Выйти», «Пройдено / Всего», картинка + подпись, 5 баков, возврат при ошибке). Тестовые 5–10 отходов (placeholder-картинки рисовать кодом/векторно) в `data/` отдельным файлом, не в скриптах. Классы опасности не показывать.
+**Следующий шаг (Этап 3):** в `GameSession` добавить таймер на отход (`Settings`: `time_enabled`, `seconds_per_item`), лимит попыток (`max_attempts`, 0 = без лимита), статистику; в `game_sort_bin.gd` добавить `components/timer_bar.gd` (полоска + секунды), реакцию на истечение времени (ошибка и следующий отход, по DECISIONS), отдельную сцену итогов `scenes/games/sort_bin/results.tscn`, диалог подтверждения выхода, улучшить анимации.
 
-**Файлы для проверки:** `scripts/autoload/*.gd`, `scripts/menu/*.gd`, `scripts/core/ui_kit.gd`, `data/modes.json`, `data/config.json`.
+**Файлы для проверки:** `components/*.gd`, `scripts/games/sort_bin/*.gd`.
