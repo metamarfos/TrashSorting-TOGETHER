@@ -1,0 +1,33 @@
+{
+	"game_defaults": {
+		"items_per_round": 10,
+		"time_enabled": true,
+		"seconds_per_item": 15,
+		"order": "random",
+		"max_attempts": 0,
+		"sound_enabled": true
+	},
+	"presets": {
+		"easy": {
+			"label": "Лёгкий",
+			"items_per_round": 5,
+			"time_enabled": false,
+			"seconds_per_item": 30,
+			"max_attempts": 0
+		},
+		"normal": {
+			"label": "Обычный",
+			"items_per_round": 10,
+			"time_enabled": true,
+			"seconds_per_item": 15,
+			"max_attempts": 0
+		},
+		"hard": {
+			"label": "Сложный",
+			"items_per_round": 20,
+			"time_enabled": true,
+			"seconds_per_item": 8,
+			"max_attempts": 3
+		}
+	}
+}

@@ -10,22 +10,35 @@ config_version=5
 
 [application]
 
-config/name="Godot-example"
-config/features=PackedStringArray("4.7", "Mobile")
+config/name="Сортируем вместе"
+config/description="Детская образовательная игра о раздельном сборе отходов"
+run/main_scene="res://scenes/boot/boot.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/quit_on_go_back=false
+config/icon="res://assets/icons/icon.svg"
+
+[autoload]
+
+SceneRouter="*res://scripts/autoload/scene_router.gd"
+Settings="*res://scripts/autoload/settings.gd"
 
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1080
-window/size/mode=3
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+window/size/window_width_override=540
+window/size/window_height_override=960
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+window/handheld/orientation=1
 
-[physics]
+[input_devices]
 
-3d/physics_engine="Jolt Physics"
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
-rendering_device/driver.windows="d3d12"
-renderer/rendering_method="mobile"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.957, 0.98, 0.965, 1)
