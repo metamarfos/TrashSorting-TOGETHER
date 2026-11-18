@@ -1,0 +1,36 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://screens/bins_intro/bin_row.gd" id="1_s"]
+
+[node name="BinRow" type="PanelContainer"]
+offset_right = 1000.0
+offset_bottom = 200.0
+theme_type_variation = &"RowPanel"
+script = ExtResource("1_s")
+
+[node name="HBox" type="HBoxContainer" parent="."]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 28
+
+[node name="Pic" type="TextureRect" parent="HBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Title" type="Label" parent="HBox"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_type_variation = &"HeadingLabel"
+autowrap_mode = 3
+
+[node name="Chevron" type="Label" parent="HBox"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_type_variation = &"HeadingLabel"
+text = "›"

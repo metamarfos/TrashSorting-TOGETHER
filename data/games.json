@@ -1,0 +1,53 @@
+{
+ "_comment": "Список игр главного меню. Чтобы добавить уровень: допишите объект сюда, зарегистрируйте экран в core/router.gd (SCREENS) и поставьте enabled=true. Поле badge показывается на плашке у выключенных игр.",
+ "badge": "Скоро",
+ "games": [
+  {
+   "id": "hazard_class",
+   "title": "Класс опасности отходов",
+   "subtitle": "",
+   "enabled": false,
+   "screen": "",
+   "color": "#E5484D",
+   "icon": "res://assets/ui/game_hazard_class.svg"
+  },
+  {
+   "id": "bins",
+   "title": "Выбери бак",
+   "subtitle": "Куда выбросить этот отход?",
+   "enabled": true,
+   "screen": "bins_intro",
+   "color": "#2E86DE",
+   "icon": "res://assets/ui/game_bins.svg",
+   "rounds": 10,
+   "time_per_item": 10
+  },
+  {
+   "id": "what_from_what",
+   "title": "Это что-то из чего-то",
+   "subtitle": "",
+   "enabled": false,
+   "screen": "",
+   "color": "#8E6BD8",
+   "icon": "res://assets/ui/game_what_from_what.svg"
+  },
+  {
+   "id": "prepare",
+   "title": "Как подготовить отходы",
+   "subtitle": "",
+   "enabled": false,
+   "screen": "",
+   "color": "#1FA7A8",
+   "icon": "res://assets/ui/game_prepare.svg"
+  },
+  {
+   "id": "waste_path",
+   "title": "Путь отходов",
+   "subtitle": "",
+   "enabled": false,
+   "screen": "",
+   "color": "#F28C28",
+   "icon": "res://assets/ui/game_waste_path.svg"
+  }
+ ]
+}

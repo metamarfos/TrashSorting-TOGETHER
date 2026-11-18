@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="DesignTokens" format=3]
+
+[ext_resource type="Script" path="res://design/design_tokens.gd" id="1_tokens"]
+
+[resource]
+script = ExtResource("1_tokens")

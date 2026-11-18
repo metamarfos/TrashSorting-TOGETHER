@@ -1,0 +1,849 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "w001",
+   "name": "Лампы люминесцентные, утратившие потребительские свойства",
+   "hazard_class": 1,
+   "bins": [
+    "hazard"
+   ],
+   "image": "res://assets/waste/w001.webp",
+   "note": ""
+  },
+  {
+   "id": "w002",
+   "name": "Лампы люминесцентные, утратившие потребительские свойства",
+   "hazard_class": 1,
+   "bins": [
+    "hazard"
+   ],
+   "image": "res://assets/waste/w002.webp",
+   "note": ""
+  },
+  {
+   "id": "w003",
+   "name": "Лампы люминесцентные, утратившие потребительские свойства",
+   "hazard_class": 1,
+   "bins": [
+    "hazard"
+   ],
+   "image": "res://assets/waste/w003.webp",
+   "note": ""
+  },
+  {
+   "id": "w004",
+   "name": "Бой термометров с остатками ртути",
+   "hazard_class": 1,
+   "bins": [
+    "hazard"
+   ],
+   "image": "res://assets/waste/w004.webp",
+   "note": ""
+  },
+  {
+   "id": "w005",
+   "name": "Одиночные гальванические элементы (батарейки) никель-кадмиевые неповрежденные отработанные",
+   "hazard_class": 2,
+   "bins": [
+    "hazard"
+   ],
+   "image": "res://assets/waste/w005.webp",
+   "note": ""
+  },
+  {
+   "id": "w006",
+   "name": "Одиночные гальванические элементы (батарейки) никель-кадмиевые неповрежденные отработанные",
+   "hazard_class": 2,
+   "bins": [
+    "hazard"
+   ],
+   "image": "res://assets/waste/w006.webp",
+   "note": ""
+  },
+  {
+   "id": "w007",
+   "name": "Источники бесперебойного питания, утратившие потребительские свойства",
+   "hazard_class": 2,
+   "bins": [
+    "hazard"
+   ],
+   "image": "res://assets/waste/w007.webp",
+   "note": ""
+  },
+  {
+   "id": "w008",
+   "name": "Источники бесперебойного питания, утратившие потребительские свойства",
+   "hazard_class": 2,
+   "bins": [
+    "hazard"
+   ],
+   "image": "res://assets/waste/w008.webp",
+   "note": ""
+  },
+  {
+   "id": "w009",
+   "name": "Лампы накаливания галогенные с вольфрамовой нитью",
+   "hazard_class": 3,
+   "bins": [
+    "hazard"
+   ],
+   "image": "res://assets/waste/w009.webp",
+   "note": ""
+  },
+  {
+   "id": "w010",
+   "name": "Фильтры волокнистые на основе полимерных волокон, загрязненные оксидами кремния и железа",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w010.webp",
+   "note": ""
+  },
+  {
+   "id": "w011",
+   "name": "Упаковка из разнородных полимерных материалов, загрязненная",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w011.webp",
+   "note": "добавить грязи"
+  },
+  {
+   "id": "w012",
+   "name": "Экскременты собак свежие",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w012.webp",
+   "note": ""
+  },
+  {
+   "id": "w013",
+   "name": "Духи, туалетная вода в стеклянной упаковке, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w013.webp",
+   "note": ""
+  },
+  {
+   "id": "w014",
+   "name": "Бумажные салфетки (полотенца) загрязненные",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w014.webp",
+   "note": ""
+  },
+  {
+   "id": "w015",
+   "name": "Опилки фанеры",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w015.webp",
+   "note": ""
+  },
+  {
+   "id": "w016",
+   "name": "Бой зеркал",
+   "hazard_class": 4,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w016.webp",
+   "note": ""
+  },
+  {
+   "id": "w017",
+   "name": "Посуда столовая и кухонная из хрусталя",
+   "hazard_class": 4,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w017.webp",
+   "note": ""
+  },
+  {
+   "id": "w018",
+   "name": "Посуда столовая и кухонная из хрусталя",
+   "hazard_class": 4,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w018.webp",
+   "note": ""
+  },
+  {
+   "id": "w019",
+   "name": "Чипсы картофельные, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w019.webp",
+   "note": ""
+  },
+  {
+   "id": "w020",
+   "name": "Сыры плавленые и творожные, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w020.webp",
+   "note": "Нужен белый фон"
+  },
+  {
+   "id": "w021",
+   "name": "Магнитофоны бытовые, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "social"
+   ],
+   "image": "res://assets/waste/w021.webp",
+   "note": ""
+  },
+  {
+   "id": "w022",
+   "name": "Пасты зубные в полимерной упаковке, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w022.webp",
+   "note": ""
+  },
+  {
+   "id": "w023",
+   "name": "Обувь кожаная рабочая, утратившая потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "blue",
+    "social"
+   ],
+   "image": "res://assets/waste/w023.webp",
+   "note": ""
+  },
+  {
+   "id": "w024",
+   "name": "Обувь кожаная утратившая потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w024.webp",
+   "note": ""
+  },
+  {
+   "id": "w025",
+   "name": "Отходы бумаги с силиконовым покрытием",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w025.webp",
+   "note": "Тут не нашла силиконовую бумажку с остатками бисквита или жирными пятнами"
+  },
+  {
+   "id": "w026",
+   "name": "Перчатки резиновые, загрязненные жирами",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w026.webp",
+   "note": "Эта картинка стоковая, надо сделать свою похожую"
+  },
+  {
+   "id": "w027",
+   "name": "Изделия из полиэтилена незагрязненные",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w027.webp",
+   "note": "Проверить: в исходной таблице у отхода с таким названием указаны разные баки."
+  },
+  {
+   "id": "w028",
+   "name": "Платы электронные компьютерные, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "social"
+   ],
+   "image": "res://assets/waste/w028.webp",
+   "note": ""
+  },
+  {
+   "id": "w029",
+   "name": "Sim-карты мобильной связи, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w029.webp",
+   "note": ""
+  },
+  {
+   "id": "w030",
+   "name": "Мониторы компьютерные плазменные, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "social"
+   ],
+   "image": "res://assets/waste/w030.webp",
+   "note": "Надо название убрать"
+  },
+  {
+   "id": "w031",
+   "name": "Пылесос, утративший потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "social"
+   ],
+   "image": "res://assets/waste/w031.webp",
+   "note": ""
+  },
+  {
+   "id": "w032",
+   "name": "Утюги электрические бытовые, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "social"
+   ],
+   "image": "res://assets/waste/w032.webp",
+   "note": ""
+  },
+  {
+   "id": "w033",
+   "name": "Бижутерия из металлических и/или разнородных полимерных материалов, утратившая потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w033.webp",
+   "note": ""
+  },
+  {
+   "id": "w034",
+   "name": "Светодиодные лампы, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w034.webp",
+   "note": "Проверить: в исходной таблице у отхода с таким названием указаны разные баки."
+  },
+  {
+   "id": "w035",
+   "name": "Отходы мебели из разнородных материалов",
+   "hazard_class": 4,
+   "bins": [
+    "bunker"
+   ],
+   "image": "res://assets/waste/w035.webp",
+   "note": ""
+  },
+  {
+   "id": "w036",
+   "name": "Отходы мебели из разнородных материалов",
+   "hazard_class": 4,
+   "bins": [
+    "bunker"
+   ],
+   "image": "res://assets/waste/w036.webp",
+   "note": ""
+  },
+  {
+   "id": "w037",
+   "name": "Подгузники и/или пеленки загрязненные",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w037.webp",
+   "note": ""
+  },
+  {
+   "id": "w038",
+   "name": "Отходы фольги, загрязненные",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w038.webp",
+   "note": ""
+  },
+  {
+   "id": "w039",
+   "name": "Отходы упаковки, загрязненные",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w039.webp",
+   "note": ""
+  },
+  {
+   "id": "w040",
+   "name": "Тетрапак загрязненный (Отходы многослойной упаковки на основе бумаги и/или картона, полиэтилена и фольги алюминиевой)",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w040.webp",
+   "note": ""
+  },
+  {
+   "id": "w041",
+   "name": "Отходы упаковки, загрязненные",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w041.webp",
+   "note": "Должны быть остатки йогрута"
+  },
+  {
+   "id": "w042",
+   "name": "Отходы упаковки, загрязненные",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w042.webp",
+   "note": ""
+  },
+  {
+   "id": "w043",
+   "name": "Тара загрязненная",
+   "hazard_class": 4,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w043.webp",
+   "note": "Стоковая. Нужна банка с остатками варенья"
+  },
+  {
+   "id": "w044",
+   "name": "Отходы труб полимерных при замене, ремонте инженерных коммуникаций",
+   "hazard_class": 4,
+   "bins": [
+    "bunker"
+   ],
+   "image": "res://assets/waste/w044.webp",
+   "note": ""
+  },
+  {
+   "id": "w045",
+   "name": "Отходы (мусор) от строительных и ремонтных работ",
+   "hazard_class": 4,
+   "bins": [
+    "bunker"
+   ],
+   "image": "res://assets/waste/w045.webp",
+   "note": "Нужен белый фон"
+  },
+  {
+   "id": "w046",
+   "name": "Изделия из полиэтилена незагрязненные",
+   "hazard_class": 4,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w046.webp",
+   "note": "Проверить: в исходной таблице у отхода с таким названием указаны разные баки."
+  },
+  {
+   "id": "w047",
+   "name": "Резиновая обувь, утратившая потребительские свойства, незагрязненная",
+   "hazard_class": 4,
+   "bins": [
+    "gray",
+    "social"
+   ],
+   "image": "res://assets/waste/w047.webp",
+   "note": ""
+  },
+  {
+   "id": "w048",
+   "name": "Светодиодные лампы, утратившие потребительские свойства",
+   "hazard_class": 4,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w048.webp",
+   "note": "Проверить: в исходной таблице у отхода с таким названием указаны разные баки."
+  },
+  {
+   "id": "w049",
+   "name": "Свечи зажигания автомобильные отработанные",
+   "hazard_class": 5,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w049.webp",
+   "note": ""
+  },
+  {
+   "id": "w050",
+   "name": "Стержни кукурузных початков",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w050.webp",
+   "note": ""
+  },
+  {
+   "id": "w051",
+   "name": "Шкурки и семена овощные",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w051.webp",
+   "note": ""
+  },
+  {
+   "id": "w052",
+   "name": "Шкурки и семена овощные",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w052.webp",
+   "note": ""
+  },
+  {
+   "id": "w053",
+   "name": "Хлебная крошка",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w053.webp",
+   "note": ""
+  },
+  {
+   "id": "w054",
+   "name": "Обрезки и обрывки смешанных тканей",
+   "hazard_class": 5,
+   "bins": [
+    "blue",
+    "social"
+   ],
+   "image": "res://assets/waste/w054.webp",
+   "note": ""
+  },
+  {
+   "id": "w055",
+   "name": "Обрезки и обрывки смешанных тканей",
+   "hazard_class": 5,
+   "bins": [
+    "blue",
+    "social"
+   ],
+   "image": "res://assets/waste/w055.webp",
+   "note": ""
+  },
+  {
+   "id": "w056",
+   "name": "Использованные книги, журналы, брошюры, проспекты, каталоги",
+   "hazard_class": 5,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w056.webp",
+   "note": ""
+  },
+  {
+   "id": "w057",
+   "name": "Использованные книги, журналы, брошюры, проспекты, каталоги",
+   "hazard_class": 5,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w057.webp",
+   "note": ""
+  },
+  {
+   "id": "w058",
+   "name": "Обрезь гофрокартона",
+   "hazard_class": 5,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w058.webp",
+   "note": ""
+  },
+  {
+   "id": "w059",
+   "name": "Упаковка из бумаги и/или картона незагрязненная",
+   "hazard_class": 5,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w059.webp",
+   "note": ""
+  },
+  {
+   "id": "w060",
+   "name": "Бой керамики",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w060.webp",
+   "note": "Проверить: в исходной таблице у отхода с таким названием указаны разные баки."
+  },
+  {
+   "id": "w061",
+   "name": "Бой керамики",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w061.webp",
+   "note": "Проверить: в исходной таблице у отхода с таким названием указаны разные баки."
+  },
+  {
+   "id": "w062",
+   "name": "Бой керамики",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w062.webp",
+   "note": "Проверить: в исходной таблице у отхода с таким названием указаны разные баки."
+  },
+  {
+   "id": "w063",
+   "name": "Лампы накаливания",
+   "hazard_class": 5,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w063.webp",
+   "note": ""
+  },
+  {
+   "id": "w064",
+   "name": "Лом и отходы стальные несортированные",
+   "hazard_class": 5,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w064.webp",
+   "note": ""
+  },
+  {
+   "id": "w065",
+   "name": "Кожура фруктовая",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w065.webp",
+   "note": ""
+  },
+  {
+   "id": "w066",
+   "name": "Остатки овощей и фруктов",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w066.webp",
+   "note": ""
+  },
+  {
+   "id": "w067",
+   "name": "Остатки овощей и фруктов",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w067.webp",
+   "note": ""
+  },
+  {
+   "id": "w068",
+   "name": "Кожура фруктовая",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w068.webp",
+   "note": ""
+  },
+  {
+   "id": "w069",
+   "name": "Кожура фруктовая",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w069.webp",
+   "note": ""
+  },
+  {
+   "id": "w070",
+   "name": "Лузга подсолнечная",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w070.webp",
+   "note": ""
+  },
+  {
+   "id": "w071",
+   "name": "Скорлупа от куриных яиц",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w071.webp",
+   "note": ""
+  },
+  {
+   "id": "w072",
+   "name": "Бой шамотного кирпича",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w072.webp",
+   "note": ""
+  },
+  {
+   "id": "w073",
+   "name": "Хлебобулочные, мучные кондитерские изделия недлительного хранения, утратившие потребительские свойства",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w073.webp",
+   "note": ""
+  },
+  {
+   "id": "w074",
+   "name": "Хлебобулочные, мучные кондитерские изделия недлительного хранения, утратившие потребительские свойства",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w074.webp",
+   "note": ""
+  },
+  {
+   "id": "w075",
+   "name": "Влажные корма для животных, утратившие потребительские свойства",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w075.webp",
+   "note": ""
+  },
+  {
+   "id": "w076",
+   "name": "Фрукты и овощи, утратившие потребительские свойства",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w076.webp",
+   "note": ""
+  },
+  {
+   "id": "w077",
+   "name": "Игрушки из пластика, дерева или резины, утратившие потребительские свойства",
+   "hazard_class": 5,
+   "bins": [
+    "social"
+   ],
+   "image": "res://assets/waste/w077.webp",
+   "note": "Стоковая, нужна похожая"
+  },
+  {
+   "id": "w078",
+   "name": "Пищевые продукты, утратившие потребительские свойства",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w078.webp",
+   "note": ""
+  },
+  {
+   "id": "w079",
+   "name": "Пищевые продукты, утратившие потребительские свойства",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w079.webp",
+   "note": ""
+  },
+  {
+   "id": "w080",
+   "name": "Банка алюминиевая (изделия, утратившие потребительские свойства)",
+   "hazard_class": 5,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w080.webp",
+   "note": ""
+  },
+  {
+   "id": "w081",
+   "name": "Отходы посуды одноразовой из разнородных полимерных материалов, загрязненной пищевыми продуктами",
+   "hazard_class": 5,
+   "bins": [
+    "gray"
+   ],
+   "image": "res://assets/waste/w081.webp",
+   "note": ""
+  },
+  {
+   "id": "w082",
+   "name": "Бой керамики",
+   "hazard_class": 5,
+   "bins": [
+    "bunker"
+   ],
+   "image": "res://assets/waste/w082.webp",
+   "note": "Белый фон нужен | Проверить: в исходной таблице у отхода с таким названием указаны разные баки."
+  },
+  {
+   "id": "w083",
+   "name": "Тара стеклянная незагрязненная",
+   "hazard_class": 5,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w083.webp",
+   "note": ""
+  },
+  {
+   "id": "w084",
+   "name": "Тетрапак незагрязненный (Отходы многослойной упаковки на основе бумаги и/или картона, полиэтилена и фольги алюминиевой)",
+   "hazard_class": 5,
+   "bins": [
+    "blue"
+   ],
+   "image": "res://assets/waste/w084.webp",
+   "note": "Нужен белый фон"
+  }
+ ]
+}

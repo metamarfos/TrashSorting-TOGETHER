@@ -11,16 +11,24 @@ config_version=5
 [application]
 
 config/name="Сортируем вместе"
-config/description="Детская образовательная игра о раздельном сборе отходов"
-run/main_scene="res://scenes/boot/boot.tscn"
-config/features=PackedStringArray("4.7", "GL Compatibility")
+config/description="Развивающая игра для детей про сортировку отходов"
+run/main_scene="res://screens/main_menu/main_menu.tscn"
 config/quit_on_go_back=false
-config/icon="res://assets/icons/icon.svg"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0.917647, 0.964706, 0.92549, 1)
+boot_splash/show_image=false
+config/icon="res://icon.svg"
 
 [autoload]
 
-SceneRouter="*res://scripts/autoload/scene_router.gd"
-Settings="*res://scripts/autoload/settings.gd"
+Design="*res://core/design.gd"
+Store="*res://core/store.gd"
+Sfx="*res://core/sfx.gd"
+ImageStore="*res://core/image_store.gd"
+BinDB="*res://core/bin_db.gd"
+WasteDB="*res://core/waste_db.gd"
+GameRegistry="*res://core/game_registry.gd"
+Router="*res://core/router.gd"
 
 [display]
 
@@ -29,12 +37,16 @@ window/size/viewport_height=1920
 window/size/window_width_override=540
 window/size/window_height_override=960
 window/stretch/mode="canvas_items"
-window/stretch/aspect="expand"
+window/stretch/aspect="keep_width"
 window/handheld/orientation=1
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
-environment/defaults/default_clear_color=Color(0.957, 0.98, 0.965, 1)
+environment/defaults/default_clear_color=Color(0.917647, 0.964706, 0.92549, 1)
